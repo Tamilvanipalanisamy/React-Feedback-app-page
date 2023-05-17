@@ -1,0 +1,57 @@
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  padding: 18px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-heading {
+  font-size: 25px;
+  font-family: 'roboto';
+  color: black;
+  text-align: center;
+  font-weight: 500;
+}
+.emojis {
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.emojis-container {
+  margin-top: 30px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.each-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.feedback {
+  font-size: 15px;
+  font-family: 'roboto';
+  color: black;
+  text-align: center;
+}
+.thank-you-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
